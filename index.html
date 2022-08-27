@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="fr" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="src/assets/favicon.png" />
+
+    
+    <title>Florian Mondaut | Data Analyst et Développeur web</title>
+   
+    <meta name="keywords" content="[Florian] [Mondaut] alternance data analyst développeur web" />
+    
+    <meta name="description" content="Florian Mondaut, Data Analyst à la recherche d'une alternance de deux ans." />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="src/styles.scss" />
+    <script
+      defer
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+    ></script>
+
+ 
+  </head>
+
+
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          Bonjour, je suis <span class="text-color-main">Florian Mondaut</span>
+          <br />
+          Développeur web et Data Analyst.
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >En savoir plus</a
+          >
+        </p>
+      </div>
+    </section>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="300px"
+                width="300px"
+                src="src/assets/moi.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text">
+                Passionné d'informatique depuis mon plus jeune âge, j'ai décidé de me reconvertir fin 2021.
+                J'ai alors suivi des tutos en ligne pour m'auto-former sur le développement web, et ait fini par adhérer à la formation 
+                de niveau bac+2 de développeur web proposée par OpenClasrooms.
+              </p>
+              <p class="about-wrapper__info-text">
+                En suivant cette formation et en me formant de mon côté, j'ai appris à maîtriser les fondamentaux comme le HTML, je CSS et le JS.
+                En plus de cela, je me suis interessé à la data, au SQL et au langage Python, et je me suis fixé comme objectif d'effectuer à partir 
+                de Novembre 2022 la formation de niveau bac+4 de Data Analyst en alternance, également proposée par OpenClasrooms.
+              </p>
+              <p class="about-wrapper__info-text">
+                Voici plus bas quelques-uns de mes projets réalisés lors de ma formation, et pendant mon temps libre.
+              </p>
+              <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="src/assets/resume.pdf"
+                >
+                  Voir mon CV
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">OhMyFood</h3>
+                <div>
+                  <p class="mb-4">
+                    Troisième projet du parcours "Développeur web" chez OpenClassroom. 
+                    L'objectif est d'intégrer puis de dynamiser une page web <strong>mobile first</strong> 
+                    avec des <strong>animations CSS</strong> en utilisant le préprocesseur <strong>Sass</strong>, sans JS ni framework.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://dalifo.github.io/OhMyFood/"
+                >
+                  Voir la page
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Dalifo/OhMyFood"
+                >
+                  Code Source
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://dalifo.github.io/OhMyFood/" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="src/assets/ohmyfood.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Booki</h3>
+                <div>
+                  <p class="mb-4">
+                    Deuxième projet du parcours "Développeur web" chez OpenClassroom. 
+                    L'objectif est de créer le site web d'une agence de voyage et de permettre aux usagers de rechercher des hébergements et des activités
+                    dans la ville de leur choix. Il s'agit ici d'un site statique.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://dalifo.github.io/Booki/"
+                >
+                  Voir la page
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Dalifo/Booki"
+                >
+                  Code Source
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://dalifo.github.io/Booki/" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="src/assets/booki.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">La Panthère</h3>
+                <div>
+                  <p class="mb-4">
+                    Quatrième projet du parcours "Développeur web" chez OpenClassroom. 
+                    L'objectif est d'améliorer le <strong>référencement naturel</strong> (<strong>SEO, bonnes pratiques, accessibilité</strong>) d'une agence de web design basée sur Lyon.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://dalifo.github.io/La-Panthere/"
+                >
+                  Voir la page
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Dalifo/La-Panthere"
+                >
+                  Code Source
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://dalifo.github.io/La-Panthere/" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="src/assets/lapanthere.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Kanap</h3>
+                <div>
+                  <p class="mb-4">
+                    Cinquième projet du parcours "Développeur web" chez OpenClassroom. 
+                    L'objectif est de construire un site e-commerce en <strong>JavaScript</strong> pur, sans framework.
+                    //Seul le code source est visible, pour visualiser le site, veuillez suivre les instructions sur Github.//
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://github.com/Dalifo/Kanap"
+                >
+                  Voir la page
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Dalifo/Kanap"
+                >
+                  Code Source
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://github.com/Dalifo/Kanap" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="src/assets/kanap.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper load-hidden">
+          <p class="contact-wrapper__text">Je suis à la recherche d'une alternance de Data Analyst, <br>Contactez moi pour collaborer ! <br>(Je fais très bien les cafés)</p>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:flor.mondaut@email.com"
+            >Envoyez-moi un mail</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a rel="noreferrer" href="https://github.com/Dalifo" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://www.linkedin.com/in/florian-mondaut/" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          
+        </div>
+
+        <hr />
+
+     
+        
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+
+    <script defer type="module" src="src/index.js"></script>
+  </body>
+</html>
