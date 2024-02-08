@@ -10694,10 +10694,10 @@ section {
   position: relative;
   transition: all 0.3s ease-in-out;
 }
-.competences i:hover {
+/* .competences i:hover {
   transform: scale(1.5);
   animation: rotate 1s ease-in-out 1;
-}
+} */
 
 @keyframes rotate {
   0% {
